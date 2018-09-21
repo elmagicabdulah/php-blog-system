@@ -1,0 +1,38 @@
+.right-align {
+    text-align: right;
+    margin: 5px 10px
+}
+
+.navbar {
+    background-color: #383838;
+}
+
+.navbar .navbar-brand, .navbar .nav-link.active, .navbar .nav-link:hover {
+    color: #f1f1f1;
+}
+
+.navbar .nav-link {
+    color: #d3d3d3;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");    
+}
+
+article {
+    background-color: #d9d9d9;
+    margin: 20px 0;
+}
+
+article.col-12 .articles-info p:first-of-type {
+    float: left;
+}
+
+article.col-12 .articles-info p:last-of-type {
+    float: right;
+}
+
+.comments .comment {
+    background-color: #f1f1f1;
+    margin: 20px 0;
+}
