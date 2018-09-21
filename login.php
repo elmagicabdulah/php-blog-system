@@ -41,7 +41,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['username'])) {
         <input type="password" name="password" placeholder="Password">
         <?php
             if(isset($errArr)) {
-                print_r($errArr);
                 foreach($errArr as $err) {
                     echo '<p style="color: red;">' . $err . '</p>';
                 }
